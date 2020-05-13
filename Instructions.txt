@@ -1,6 +1,6 @@
 # Automating-Tinder
 Follow the steps: For linux
-Firstly install python3: sudo apt-get install python
+Firstly install python3: sudo apt-get install python3
 Then install PyAutoGUI : pip3 install PyAutoGUI // For automation
 Install Tkinter to use mouse info : sudo apt-get install python3-tk python3-dev
 Write python3 for activating an ide. Then write following commands
