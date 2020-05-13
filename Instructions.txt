@@ -1,0 +1,18 @@
+# Automating-Tinder
+Follow the steps: For linux
+Firstly install python3: sudo apt-get install python
+Then install PyAutoGUI : pip3 install PyAutoGUI // For automation
+Install Tkinter to use mouse info : sudo apt-get install python3-tk python3-dev
+Write python3 for activating an ide. Then write following commands
+>>> import pyautogui //importing the package 
+>>> import time //we want to add a delay after each click
+Open up tinder in your browser and place the cursor on the like button to get the co-ordinates. Just leave the cursor on like button and type in terminal: >>> pyautogui.position()
+This command will give you the position of like button. Then we have to use a loop.
+>>> i = 0
+>>> while i<100: //number of times you want to click
+...     pyautogui.click(1219,855) // Co-ordinates of like button
+...     time.sleep(0.2) //Gap between each click
+...     i +=1 //increasing i value eveytime
+... 
+Hit enter and you would see your Browser doing the job for you.
+Cheers!
